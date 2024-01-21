@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: "Amatic SC";
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.507);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  .navbar:hover {
+    opacity: 100%;
+    background-color: black;
+  }
+  
+  .navbar a {
+    opacity: 50%;
+    display: inline-block;
+    width: 80px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  .navbar a:hover {
+    color: black;
+    opacity: 100%;
+    background-color: white;
+  }
+  
+  .container {
+    margin: auto;
+    width: 60%;
+    padding: 100px;
+  }
+  
+  .wall {
+    height: 100vh;
+    background-image: url(https://www.w3schools.com/w3images/pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.5);
+  }
+  .wall div {
+    color: aliceblue;
+    text-decoration: none;
+    width: 400px;
+    text-align: center;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  .wall h1 {
+    font-weight: 10;
+  }
+  .wall a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+  }
+  .wall a:hover {
+    background-color: lightslategray;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 90px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 10;
+    margin: 0;
+  }
+  .about {
+    background-color: #8b5f5b;
+    font-size: 30px;
+    color: aliceblue;
+  }
+  .about img {
+    width: 100%;
+    height: 50%;
+    position: center;
+  }
+  
+  .time p {
+    display: inline-block;
+    width: 49%;
+  }
+  
+  .contact {
+    background-color: grey;
+  }
+  
+  .contact p {
+    font-size: 30px;
+    color: aliceblue;
+  }
+  
+  .contact form {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact input {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 25px;
+    font-family: "Amatic SC";
+  }
+  .menu {
+    background-color: black;
+  }
+  .menu h2 {
+      margin-bottom: 50px;
+  }
+  .menu div div {
+    background-color: white;
+    padding: 20px;
+  }
+  .menu div div p {
+    margin: 0;
+  }
+  .menu div div p:nth-child(1) {
+    font-weight: bold;
+    font-size: 45px;
+    margin: 10px 0;
+  }
+  .menu div div p:nth-child(2) {
+    font-size: 35px;
+    background-color: gray;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: right;
+    color: whitesmoke;
+    float: right;
+  }
+  .menu div div p:nth-child(3) {
+    font-size: 35px;
+    color: rgb(186, 186, 186);
+  }
+  .menu div .button {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 0;
+    line-height: 70px;
+    box-shadow: inset 0px 0px 3px;
+  }
+  .menu div .button h4 {
+    width: 33.33%;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 10;
+  }
+  .menu div .button h4:hover {
+    background-color: tomato;
+  }
